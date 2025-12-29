@@ -2,6 +2,7 @@
   "name": "edutech",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://amulya-03.github.io/edusity",
   "type": "module",
   "scripts": {
     "dev": "vite",

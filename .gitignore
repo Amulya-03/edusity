@@ -1,4 +1,4 @@
-cd# Logs
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -7,8 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
-#dist
+
+# Production builds
+# dist   <-- comment out if you want to commit dist
 dist-ssr
 *.local
 

@@ -1,0 +1,64 @@
+.auth-overlay{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.6);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index: 999;
+}
+
+.auth-box{
+  background:white;
+  padding:30px;
+  width:350px;
+  border-radius:10px;
+  position:relative;
+  text-align:center;
+}
+
+.auth-box h2{
+  margin-bottom:20px;
+}
+
+.auth-box input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ccc;
+}
+
+.auth-box button{
+  width:100%;
+  padding:10px;
+  background:#3b61ff;
+  color:white;
+  border:none;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.auth-box p{
+  margin-top:15px;
+}
+
+.auth-box span{
+  color:#3b61ff;
+  cursor:pointer;
+}
+
+.close-btn{
+  position:absolute;
+  top:10px;
+  right:15px;
+  cursor:pointer;
+  font-size:18px;
+}
+.success{
+  color: green;
+  text-align: center;
+  padding: 20px;
+}
